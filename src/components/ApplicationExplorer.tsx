@@ -31,7 +31,6 @@ function ApplicationExplorer() {
   }, []);
 
   const handleNavigationChange = (value: string) => {
-    console.log("handle navigation change", value);
     setSelectedCapability(value);
   };
 
